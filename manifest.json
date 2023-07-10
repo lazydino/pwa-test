@@ -13,13 +13,13 @@
     ],
     "file_handlers": [
       {
+        "name": "Wrap MyHTML Content",
         "action": "/",
         "accept": {
             "text/*": [
                 ".myhtml"
             ]
         }
-        "name": "Wrap MyHTML Content"
       }
     ]
   }
