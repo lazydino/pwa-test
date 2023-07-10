@@ -14,7 +14,11 @@
     "file_handlers": [
       {
         "action": "/",
-        "accept": ".myhtml",
+        "accept": {
+            "text/*": [
+                ".myhtml"
+            ]
+        }
         "name": "Wrap MyHTML Content"
       }
     ]
